@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0D1117] dark:bg-gray-50 transition-colors duration-500;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0D1117] dark:bg-gray-50 text-white dark:text-gray-900 transition-colors duration-500;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Transiciones globales */
+  :is(h1, h2, h3, h4, p, span, a, button, input, textarea, div, section) {
+    @apply transition-colors duration-500;
+  }
+}
