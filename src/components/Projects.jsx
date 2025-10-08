@@ -7,27 +7,24 @@ function Projects() {
   const projects = [
     {
       title: "Fitness App",
-      description: "Aplicación para seguimiento de entrenamiento y nutrición con Flask y React.",
-      tech: ["Flask", "React", "Tailwind"],
+      description: "Aplicación para seguimiento de entrenamiento y administración de rutinas con Flask y PostgreSQL.",
+      tech: ["Flask", "PostgreSQL", "Bootstap", "Docker"],
       category: "Web",
       github: "https://github.com/Marrcos15/fitness-app",
-      demo: "#",
     },
     {
       title: "Portfolio 3D",
       description: "Portafolio interactivo con animaciones 3D y modo oscuro/claro.",
-      tech: ["React", "Three.js", "Framer Motion"],
+      tech: ["React", "TailwindCSS", "Framer Motion"],
       category: "Frontend",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Marrcos15/Marrcos15.github.io",
     },
     {
-      title: "API REST Flask",
+      title: "API REST",
       description: "API REST con autenticación JWT y PostgreSQL.",
       tech: ["Flask", "PostgreSQL", "JWT"],
       category: "Backend",
       github: "#",
-      demo: "#",
     },
   ];
 
@@ -102,9 +99,6 @@ function Projects() {
                 <div className="flex gap-4 mt-4">
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-300 dark:text-gray-700 hover:text-cyan-400 dark:hover:text-cyan-600 transition">
                     <FaGithub /> Código
-                  </a>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-300 dark:text-gray-700 hover:text-cyan-400 dark:hover:text-cyan-600 transition">
-                    <FaExternalLinkAlt /> Demo
                   </a>
                 </div>
               </motion.div>

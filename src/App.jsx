@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import ThemeToggle from "./components/ThemeToggle";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ThemeToggle />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Experience />
       <Contact />

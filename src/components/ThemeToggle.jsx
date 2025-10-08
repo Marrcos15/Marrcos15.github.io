@@ -5,7 +5,6 @@ import { FaMoon, FaSun } from "react-icons/fa";
 function ThemeToggle() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
-  // aplicar el tema al cargar
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
