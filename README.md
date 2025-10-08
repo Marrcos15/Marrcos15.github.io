@@ -1,16 +1,85 @@
-# React + Vite
+# 🌐 Portafolio — Marcos González
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio web personal.  
+Este proyecto ha sido desarrollado con **React + Vite**, empleando **Tailwind CSS** y **Framer Motion** para lograr un diseño moderno, animado y totalmente responsive.
 
-Currently, two official plugins are available:
+🚀 **Enlace en producción:**  
+👉 [https://marrcos15.github.io](https://marrcos15.github.io)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Categoría | Tecnologías |
+|------------|--------------|
+| 🖥️ Frontend | React, Vite, JavaScript (ES6+), Tailwind CSS |
+| ⚙️ Backend (APIs) | Flask, FastAPI |
+| 🗄️ Base de datos | MySQL, PostgreSQL, MongoDB |
+| 🧰 Dev Tools | Git, GitHub, EmailJS |
+| 🎨 Animaciones | Framer Motion |
+| ☀️ Temas | Modo oscuro / claro persistente |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estructura del proyecto
+
+```
+src/
+ ├── components/
+ │   ├── Hero.jsx             # Sección de portada
+ │   ├── About.jsx            # Sección "Sobre mí"
+ │   ├── SkillsCompact.jsx    # Conocimientos y tecnologías (versión compacta)
+ │   ├── Projects.jsx         # Portafolio de proyectos
+ │   ├── Experience.jsx       # Experiencia laboral y educación
+ │   ├── Contact.jsx          # Formulario de contacto funcional con EmailJS
+ │   ├── ThemeToggle.jsx      # Toggle de modo claro/oscuro
+ │   └── GradientBackground.jsx # Fondo con transición suave
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## ✨ Funcionalidades principales
+
+✅ **Modo oscuro / claro** con persistencia en `localStorage`  
+✅ **Animaciones suaves** con Framer Motion  
+✅ **Formulario de contacto funcional** mediante EmailJS  
+✅ **Diseño responsive y minimalista**  
+✅ **Despliegue automático** con `gh-pages`  
+✅ **Optimización SEO y rendimiento**  
+
+---
+
+## ⚙️ Scripts disponibles
+
+En el directorio del proyecto puedes ejecutar:
+
+| Comando | Descripción |
+|----------|--------------|
+| `npm run dev` | Inicia el servidor de desarrollo local |
+| `npm run build` | Genera la build de producción en `/dist` |
+| `npm run preview` | Previsualiza la build localmente |
+| `npm run deploy` | Publica automáticamente en GitHub Pages (`gh-pages`) |
+
+---
+
+## 🧑‍💻 Autor
+
+**Marcos González**  
+📍 Candeleda, Ávila  
+📧 [mgonzalez.trabajo.18@gmail.com](mailto:mgonzalez.trabajo.18@gmail.com)  
+📞 +34 634 76 99 93  
+💼 [LinkedIn](https://linkedin.com/in/marcosgonzalez)  
+🐙 [GitHub](https://github.com/Marrcos15)
+
+---
+
+## 📜 Licencia
+
+Este proyecto se distribuye bajo licencia **MIT**, lo que permite su uso libre con atribución.
+
+---
+
+> 💬 *“El código limpio no solo funciona bien, sino que se entiende fácilmente.”*
