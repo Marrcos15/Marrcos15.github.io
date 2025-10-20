@@ -13,6 +13,21 @@ function Projects() {
       github: "https://github.com/Marrcos15/fitness-app",
     },
     {
+      title: "Carta Restaurante",
+      description:
+        "Aplicación full-stack que digitaliza la gestión de un restaurante. Incluye panel de administración, control de productos, categorías, pedidos, mesas y pagos, además de una interfaz cliente para consultar la carta y realizar pedidos online.",
+      tech: [
+        "Django Rest Framework",
+        "JWT",
+        "React",
+        "Context API",
+        "Formik",
+        "Yup",
+      ],
+      category: "Full Stack",
+      github: "https://github.com/Marrcos15/carta-restaurante",
+    },
+    {
       title: "Portfolio 3D",
       description: "Portafolio interactivo con animaciones 3D y modo oscuro/claro.",
       tech: ["React", "TailwindCSS", "Framer Motion"],
@@ -22,7 +37,7 @@ function Projects() {
     {
       title: "API REST",
       description: "API REST con autenticación JWT y PostgreSQL.",
-      tech: ["Flask", "PostgreSQL", "JWT"],
+      tech: ["FastApi", "PostgreSQL", "JWT"],
       category: "Backend",
       github: "#",
     },

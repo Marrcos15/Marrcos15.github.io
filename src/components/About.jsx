@@ -34,20 +34,6 @@ function About() {
           aplicando buenas prácticas de código, control de versiones con Git y despliegues optimizados. 
           Me considero una persona analítica, resolutiva y en constante aprendizaje.
         </p>
-
-        {/* Habilidades */}
-        <div className="flex flex-wrap justify-center gap-6 text-4xl text-gray-400 dark:text-gray-700 mt-12">
-          <FaPython className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="Python" />
-          <SiFlask className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="Flask" />
-          <SiFastapi className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="FastAPI" />
-          <SiDjango className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="Django" />
-          <FaJsSquare className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="JavaScript" />
-          <SiPostgresql className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="PostgreSQL" />
-          <FaDatabase className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="MySQL" />
-          <SiGit className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="Git" />
-          <SiDocker className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="Docker" />
-          <FaGithub className="hover:text-cyan-400 dark:hover:text-cyan-600 transition" title="GitHub" />
-        </div>
       </motion.div>
     </section>
   );
